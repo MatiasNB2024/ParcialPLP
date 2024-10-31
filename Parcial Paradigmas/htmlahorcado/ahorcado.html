@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego: El Ahorcado</title>
+    <link rel="stylesheet" href="css/ahorcado.css">
+</head>
+<body>
+
+    <header>
+        <h1>Juego: El Ahorcado</h1>
+        <p>Intenta adivinar la palabra antes de que el hombre sea ahorcado.</p>
+    </header>
+
+    <section class="game-container">
+        <!-- Dibujo del ahorcado -->
+        <div class="hangman-image">
+            <img src="img/ahorcado.png" alt="Ahorcado" id="hangman-img">
+        </div>
+
+        <!-- Estado de la palabra -->
+        <div class="word-status">
+            <p id="word-display">_ _ _ _ _</p> <!-- Esto se actualizará en el juego real -->
+        </div>
+
+        <!-- Letras para adivinar -->
+        <div class="letters-container">
+            <p>Selecciona una letra:</p>
+            <div class="letters">
+                <button>A</button>
+                <button>B</button>
+                <button>C</button>
+                <!-- Agrega más botones para todas las letras -->
+                <button>Z</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
